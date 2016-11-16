@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-weight: bold;
+	font-size: large;
 }
 .superficie {
 	position: fixed;
@@ -19,16 +20,17 @@ body {
 	color: #feffad;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 2px solid #feff97;
-	width: 20%;
-	height: 70%;
+	top: 40%;
+	width: 30%;
+	height: 40%;
 	overflow: hidden;
 }
 #turbo {
 	position: absolute;
 	display: block;
-	width: 40%;
+	width: 60%;
 	height: auto;
-	left: 30%;
+	left: 20%;
 	bottom: 10%;
 }
 #titulo_panel{
@@ -53,6 +55,7 @@ body {
 	bottom: 0;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	list-style-type: none;
 	overflow: hidden;
 	z-index: 2;
@@ -62,23 +65,23 @@ body {
 	border: 2px solid #feff97;
 	border-bottom: none;
 	border-left: none;
-	height: 100%;
-	width: auto;
 }
 .menu li a{
-	position: relative;
 	display: block;
 	color: #feffad;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1em 7.05em;
 	text-decoration: none;
+}
+.menu li:last-child{
+	border-right: none;
 }
 .tierra {
 	position: absolute;
-	left: 30%;
+	left: 10%;
 	top: 0;
 	z-index:-2;
-	width: 15%;
+	width: 25%;
 	height: auto;
 }
 .nave{
@@ -86,7 +89,7 @@ body {
 	z-index: 1;
 	left: 60%;
 	top: 40%;
-	width: 7%;
+	width: 10%;
 	height: auto;
 }
 .ayuda {
@@ -102,7 +105,7 @@ body {
 	z-index: 2;
 	color: #feffad;
 }
-.pausa{
+.pausa {
 	background-color: rgba(0, 0, 0, 0.8);
 	position: absolute;
 	top: 30%;
