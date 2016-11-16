@@ -6,7 +6,7 @@ body {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-weight: bold;
 }
-.superficie {
+#superficie {
 	position: fixed;
 	z-index: -1;
 	bottom: 0;
@@ -73,7 +73,7 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.tierra {
+#tierra {
 	position: absolute;
 	left: 30%;
 	top: 0;
@@ -81,7 +81,7 @@ body {
 	width: 15%;
 	height: auto;
 }
-.nave{
+#nave{
 	position: absolute;
 	z-index: 1;
 	left: 60%;
