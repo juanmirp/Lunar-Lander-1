@@ -37,6 +37,7 @@ body {
 }
 #turbo img{
 	height: 100%;
+
 }
 #titulo_panel{
 	position: relative;
@@ -145,6 +146,19 @@ body {
 }
 strong{
 	color: red;
+}
+.acercade{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	margin: 0;
+	padding: 1%;
+	border: 2px solid #feff97;
+	overflow: hidden;
+	z-index: 2;
+	color: #feffad;	
 }
 li a:hover:not(.active) {
     background-color: #008bff;

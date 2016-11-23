@@ -75,7 +75,7 @@ body {
 	display: block;
 	color: #feffad;
 	text-align: center;
-	padding: 3.3vh 8.7vw;
+	padding: 3.3vh 8.5vw;
 	text-decoration: none;
 }
 .menu li:last-child{
@@ -149,6 +149,19 @@ body {
 }
 strong{
 	color: red;
+}
+.acercade{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	margin: 0;
+	padding: 1%;
+	border: 2px solid #feff97;
+	overflow: hidden;
+	z-index: 2;
+	color: #feffad;
 }
 li a:hover:not(.active) {
     background-color: #008bff;
