@@ -153,9 +153,10 @@ strong{
 .acercade{
 	background-color: rgba(0, 0, 0, 0.8);
 	position: absolute;
-	top: 30%;
-	left: 30%;
-	width: 40%;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	max-height: 75%;
 	margin: 0;
 	padding: 1%;
 	border: 2px solid #feff97;
