@@ -10,4 +10,4 @@
 
 -En la versión vertical, a parte de los cambios mencionados, he reducido el tamaño de la nave para que hubiese más recorrido posible. 
 
--Hay una versión minificada de todo el código en un branch llamado "minify".
+-Hay una versión correctamente indentada de todo el código en el branch llamado "master".
