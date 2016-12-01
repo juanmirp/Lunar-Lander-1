@@ -8,6 +8,8 @@
 
 -He colocado la nave en el centro de la pantalla en vez de a un lado.
 
--En la versión vertical, a parte de los cambios mencionados, he reducido el tamaño de la nave para que hubiese más recorrido posible. 
+-En la versión vertical, a parte de los cambios mencionados, he reducido el tamaño de la nave para que hubiese más recorrido posible.
+
+-Hay unos elementos que están ocultos (Pausa y Ayuda) con "display: none", que en el futuro se mostraran pulsando los botones respectivos.
 
 -Hay una versión minificada de todo el código en un branch llamado "minify".
